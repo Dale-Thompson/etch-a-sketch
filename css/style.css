@@ -1,0 +1,29 @@
+#container {
+
+    width:800px;
+    height:800px;
+    border:1px solid black;
+    margin:0px auto;
+}
+
+.grid-row {
+    display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-webkit-justify-content: space-between;
+    justify-content:space-between;
+    align-content: center;
+
+}
+.grid-square {
+    -webkit-flex: 1 auto;
+    flex: 1 auto;
+    border: 1px solid black;
+    transition:all .5s;
+}
+
+.grid-square-blacked {
+    background:#000;
+    transition:all .5s;
+}
